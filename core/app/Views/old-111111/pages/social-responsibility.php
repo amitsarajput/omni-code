@@ -1,0 +1,192 @@
+<!-- Page Title
+============================================= -->
+
+<section id="page-title" class="page-title-dark page-title-right skrollable skrollable-between social-banner-mobile lozad-background" data-background-image="<?= base_url('assets/img/social-responsibility-topbanner.webp') ?>" style="padding: 300px 0; background-size: cover; background-position: center center;" data-bottom-top="background-position:0px 440px;" data-top-bottom="background-position:0px -500px;">
+
+	<div class="container clearfix">
+		<h1>&nbsp;</h1>
+		<span>&nbsp;</span>
+	</div>
+
+</section><!-- #page-title end -->
+
+<!-- Content
+============================================= -->
+<section id="content">
+
+	<div class="content-wrap">
+
+		<section id="full-width" class="full-section pblg">
+			<div class="section notopmargin nobottommargin">
+				<div class="container clearfix">
+					<div class="heading-block  center custom-heading-block about-heading">
+						<h2 class="text-pink">Social Responsibility</h2>
+					</div>
+
+					<div class="row clearfix">
+						<div class="col-lg-12 center">
+							<span class="environmental-qoute">
+								<span class="quotemark start">“ </span> <i>We cannot transform the world alone, but we want to demonstrate that if a company like ours can invest the time, effort and resources necessary to make a difference, then anyone can.</i> <span class="quotemark end"> ”</span>
+							</span>
+							<span class="qoute-name">G.S.Sareen, President and CEO, Omni United</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section notopmargin nobottommargin bg-white">
+				<div class="container clearfix">
+
+					<div class="heading-block about-sub-hd">
+						<h2 class="uppercase">Giving Back to the Society</h2>
+					</div>
+					<p>We have always believed in giving back, both to the environment and to the society. This is one of the pillars that our company has been built on. It was these beliefs that led us to partner with the Breast Cancer Research Foundation (BCRF) in 2011. Together we launched “Mobilising Hope”, a corporate alliance program that supports BCRF’s mission to prevent and cure breast cancer by advancing the world's most promising research. Our support to the BCRF has not just been monetary but also heavily aimed at bringing awareness of their work into the forefront of our industry and society in general. Through this programme we continue to fund and support thousands of hours of critical life-saving research.</p>
+
+					<p>Over the years we have undertaken numerous initiatives to spread awareness for this cause. Some of these include launching a limited edition pink sidewall tyre that was sold through a major tyre distributor in the US, supporting BCRF in all major trade exhibitions and tyre fairs globally and encouraging our dealers with in-store promotion and awareness materials. We have also received tremendous support from our past racing teams as they have always displayed the BCRF logo on their race vehicles and our previous brand ambassador LPGA Golfer, Jodi Ewart Shadoff who helped us in bringing more awareness about this cause. </p>
+					
+					<p class="bottommargin">In 2024, Radar Tyres is donating a minimum of $50,000 to the Breast Cancer Research Foundation® regardless of sales. For more information about our programme please visit <a class="blue" target="_blank" href="https://www.bcrf.org/shop-pink/travel-entertainment/radar-tires-radar-tyres-and-eden-tyres/">https://www.bcrf.org/shop-pink/travel-entertainment/radar-tires-radar-tyres-and-eden-tyres/</a>. For more information about BCRF, please visit <a class="blue"  target="_blank" href="https://www.bcrf.org/">www.bcrf.org</a>.</p>
+					
+					<!--<p class="bottommargin">In 2024, Radar Tyres is donating a minimum of $50,000 to the Breast Cancer Research Foundation® regardless of sales. BCRF’s mission is to advance the world’s most promising research to eradicate breast cancer. For more information about BCRF, visit <a class="blue" href="https://www.bcrf.org/">www.bcrf.org</a>.</p>-->
+
+					<div class="row">
+						<div class="col-sm-7">
+							<div class="social-reponsibility-number">
+								<div class="data-text text-pink">
+									us$ <span class="cnt">1,387,750</span>
+								</div>
+								<div class="data-caption">
+									donated to <br> BCRF to date
+								</div>
+							</div>
+
+						</div>
+						<div class="col-sm-5">
+							<div class="social-reponsibility-number">
+								<div class="data-text text-pink">
+									<img style="margin-top:-10px;" class="lozad" data-src="<?= base_url('assets/img/ico-microscope.webp') ?>" alt="">
+									<span class="cnt">27,755</span>
+								</div>
+								<div class="data-caption">
+									hours of <br> research funded
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--<div class="row">
+						<div class="col-sm-12 topmargin">
+							<small><i>Last Updated: March 2021</i></small>
+						</div>
+					</div>-->
+					<hr class="topmargin bottommargin">
+					<!--<div class="row">
+						<div class="col-sm-12">
+							<div class="heading-block about-sub-hd">
+								<h2 class="uppercase">FUND RAISING PROGRAMS</h2>
+							</div>
+						</div>
+					</div>-->
+					<div class="row">
+						<div class="col-lg-6">
+							<img class="lozad" data-src="<?= base_url('assets/img/BCRF_Donating-Banner-2024.webp') ?>" alt="">
+						</div>
+						<div class="col-lg-6">									
+							<div class="heading-block about-sub-hd">
+								<h2 class="uppercase">FUND RAISING PROGRAMME<br>PARTNERING WITH UK BASED EDEN TYRES & SERVICING
+								</h2>
+							</div>
+							<p style="margin-bottom: 0;">For the fifth consecutive year, Radar Tyres has tied up with its UK based tyre distributor, Eden Tyres & Servicing to raise funds for the BCRF. For every Radar Tyre sold at Eden Tyre outlets in the UK in 2024, both companies will collectively donate £2 to BCRF. Through this programme, the company aims to raise £20,000 this year for the BCRF.</p>
+						</div>
+					</div>
+					<!--
+					<div class="row topmargin-sm">
+						<div class="col-lg-6">									
+							<div class="heading-block about-sub-hd">
+								<h2 class="uppercase topmargin-sm">PARTNERING WITH JODI EWART SHADOFF FOR BIRDIES FOR BCRF</h2>
+							</div>
+							<p style="">Radar is proud to announce that it will be partnering with its brand ambassador and LPGA golfer, Jodi Ewart Shadoff for its October program “Birdies for BCRF”. This program aims to raise meaningful funds for the Breast Cancer Research Foundation (BCRF) through its partner Play for P.I.N.K. During October, which is officially recognized as Breast Cancer Awareness month, Jodi is pledging to donate $100 for every birdie that she makes in her tournaments. </p>
+							
+						</div>
+						<div class="col-lg-6">
+							<img class="lozad" data-src="<?= base_url('assets/img/birdies of bcrf-us.jpg') ?>" alt="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+						    <p style="">The final donation amount will be matched by Radar. This donation will be in addition to Radar’s current pledge of funding a minimum of 1,000 hours of breast cancer research this year.</p>
+							<p style="margin-bottom: 0;">Jodi will be seen at the below tournaments:</p>
+							<ul style="margin-left: 20px;">
+							    <li style="list-style: disc;"><p style="margin-bottom:0;">October 1<sup>st</sup> to 4<sup>th</sup> - ShopRite LPGA Classic Presented by Acer - Galloway, New Jersey, USA</p></li>
+							    <li style="list-style: disc;"><p style="margin-bottom:0;">October 8<sup>th</sup> to 11<sup>th</sup> - KPMG Women's PGA Championship - Newtown Square, Pennsylvania, USA</p></li>
+							    <li style="list-style: disc;"><p style="margin-bottom:0;">October 22<sup>nd</sup>nd to 25<sup>th</sup> - LPGA Drive On Championship - Reynolds Lake Oconee - Greensboro, Georgia, USA</p></li>
+							</ul>
+						</div>
+					</div>-->
+					
+					<!--<div class="row clearfix bcrf-brand topmargin-lg">
+
+						<div class="col-lg-6 bottommargin topmargin fright">
+							<img class="lozad" data-src="<?= base_url('assets/img/Banner-800x530_1.jpg') ?>" alt="">
+						</div>
+
+						<div class="col-lg-6 fleft">									
+							<div class="heading-block about-sub-hd">
+								<h2 class="uppercase topmargin-sm">BIRDIES FOR BCRF</h2>
+							</div>
+							<p class="bottommargin-xs">Our brand ambassador Jodi Ewart Shadoff has once again come back with “Birdies for BCRF” an initiative in support of the Breast Cancer Research Foundation through its Play for P.I.N.K. partner. Through this program Radar Tyres brand ambassador and LPGA Golfer, Jodi Ewart Shadoff will be donating $100 for every birdie that Jodi scores in her tournaments during the month of October 2019.</p>
+
+							<p class="bottommargin-xs">During the month of October Jodi can be seen in the following tournaments:</p>
+							<ul class="list-item bmxx bottommargin-xs">
+								<li>Volunteers of America Classic, The Colony, TX – October 3<sup>rd</sup>-6<sup>th</sup></li>
+								<li>Buick LPGA Shanghai, China October 17<sup>th</sup> -20<sup>th</sup></li>
+								<li>Taiwan Swinging Skirts LPGA, Taiwan  Oct 31<sup>st</sup> – Nov 3<sup>rd</sup></li>
+
+							</ul>
+						</div>
+
+                        <div class="clearfix"></div>
+						<div class="col-lg-12 clearfix">
+							<p>This programme is run through BCRF’s partner, Play for P.I.N.K., a grassroots organization dedicated to raising funds for breast cancer research through sporting and lifestyle events, donating 100% of all proceeds to its sole beneficiary, the Breast Cancer Research Foundation (BCRF). BCRF’s Play for P.I.N.K. initiative has raised over $57 million to date and currently encompasses 300 tournaments across 30 states, with over 30,000 golfers.</p>
+						</div>
+
+					</div>-->
+					
+					<hr class="topmargin bottommargin">
+					<!--<div class="row clearfix partnering">
+						<div class="col-lg-12">
+							<div class="heading-block about-sub-hd">
+								<h2 class="uppercase">AWARENESS PROGRAMME</h2>
+							</div>
+						</div>
+						<div class="col-lg-6 bottommargin-xs">
+							<img class="lozad" data-src="<?= base_url('assets/img/Banner-800x530_2.webp') ?>" alt="">
+						</div>
+						<div class="col-lg-6">									
+							<div class="heading-block about-sub-hd">
+								<h2 class="uppercase topmargin-sm">Partnering with our Distributor Wholesale Tire & Wheel in Phoenix, USA to spread awareness about Breast Cancer</h2>
+							</div>
+							<p>In Phoenix, Arizona we have partnered with our distributor Wholesale Tire & Wheel to support the BCRF. This pilot programme covers 10 carefully selected retail outlets where customers throughout October will be greeted by retail associates dressed in bright pink shirts, and waiting rooms decorated in pink balloons. Retail associates will be handing out pink ribbons, bracelets and BCRF brochures to further support the cause.</p>
+
+
+						</div>
+						<div class="col-lg-12">
+							<p class="bottommargin-xs">The main objective of this program is to spread awareness about breast cancer. Based on the success of this pilot programme we plan to roll out this to many more dealers next year.</p>
+							<p>Wholesale Tire & Wheel services the greater Phoenix area and has been in business for almost 10 years. They provide top-notch products and service to the surrounding Phoenix area, including the distribution of the Radar family of products.</p>
+						</div>
+					</div>-->
+					<div class="row clearfix partnering">
+						<div class="col-lg-12">
+							<div class="heading-block about-sub-hd center">
+								<h2 class="uppercase"> Our Sustainability and Giving Back Philosophy </h2>
+							</div>
+						</div>
+						<div class="col-md-10 offset-md-1 bottommargin-xs">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/51noIoC99xc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+</section><!-- #content end -->

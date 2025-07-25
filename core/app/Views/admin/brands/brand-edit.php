@@ -1,0 +1,69 @@
+
+<!-- Content
+============================================= -->
+
+<?php
+print_r($brand);
+?>
+<section id="content">
+	<div class="content-wrap">
+	<div class="elementnotify"></div>
+		<div class="container clearfix">
+
+			<div class="divcenter topmargin bottommargin" style="max-width: 700px;">
+
+				<div class="card nobottommargin">
+					<div class="card-body" style="padding: 40px;">
+						
+
+						<?php if (validation_errors()) : ?>
+							<div class="col_full">
+								<div class="alert alert-danger" role="alert">
+									<?= validation_errors() ?>
+								</div>
+							</div>
+						<?php endif; ?>
+						<?php if (isset($error)) : ?>
+							<div class="col_full">
+								<div class="alert alert-danger" role="alert">
+									<?= $error ?>
+								</div>
+							</div>
+						<?php endif; ?>
+
+						<h2>Edit.</h2>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vel odio non dicta provident sint ex autem mollitia dolorem illum repellat ipsum aliquid illo similique sapiente fugiat minus ratione.</p>
+
+						<?= form_open('admin/brand/update/'.$brand['brand_id'],['id'=>'brand_form'], ['id'=>$brand['brand_id']]) ?>
+							<div class="col_full">
+								<label for="title">Brand*:</label>
+								<input type="title" class="form-control" id="title" name="title" placeholder="Enter title" value="<?= $brand['brand_title']; ?>">
+								<!-- <small class="help-block">A valid email address</small> -->
+							</div>
+
+							<div class="clear"></div>
+
+
+							<div class="col_full ">
+								<label for="status">Published:</label>
+								<input type="checkbox" id="status" name="status" class="" <?= $brand['brand_status'] ? 'checked' : '' ;?> >
+								<small class="help-block">Check the box to get it published.</small>
+							</div>
+
+							<div class="col_full nobottommargin">
+								<button type="submit" class="button button-3d button-black nomargin" id="add-new-tyre" name="Add new tyre" value="add new tyre">Add now</button>
+							</div>
+
+						<?= form_close(); ?>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section><!-- #content end -->

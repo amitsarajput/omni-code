@@ -1,0 +1,239 @@
+<!--Page Title
+============================================= -->
+
+<section id="page-title" class="page-title-dark page-title-right skrollable skrollable-between lozad-background" data-background-image="<?= base_url('assets/img/golf-banner-3.webp') ?>" style="padding: 300px 0; background-size: cover; background-position: center center;" data-bottom-top="background-position:0px 440px;" data-top-bottom="background-position:0px -500px;">
+
+	<div class="container clearfix">
+		<h1>&nbsp;</h1>
+		<span>&nbsp;</span>
+	</div>
+
+</section>
+<!-- #page-title end -->
+
+
+<!-- Content
+============================================= -->
+<section id="content" class="golf-page">
+
+	<div class="content-wrap">
+
+		<section id="full-width" class="full-section ptlg bg-gray pb">
+
+    		<div class="container clearfix">
+    
+    			<div class="heading-block  center custom-heading-block about-heading">
+    				<h2  class="pbxs">Jodi Ewart Shadoff</h2>
+    			</div>
+    
+    			<div class="row clearfix">
+    				<div class="col-lg-12 center">
+    					<span class="environmental-qoute"><span class="quotemark start">“ </span><i> I am so pleased to have Omni United and Radar Tyres support and sponsor me. I have always been impressed with the company’s approach to making the tyre world more accessible and exciting for women drivers, for example, supporting the Breast Cancer Research Foundation since 2011 and also being the world's first tyre brand to be declared Carbon Neutral in 2013.</i><span class="quotemark end"> ”</span></span>
+    					<span class="qoute-name">Jodi Ewart Shadoff, LPGA Golfer </span>
+    				</div>
+    
+    			</div>
+    
+    		</div>
+
+		
+			
+			<div class="container clearfix topmargin-lg">
+
+					<div class="heading-block about-sub-hd">
+						<h2 class="">Sponsorship with Radar Tyres</h2>
+					</div>
+
+					<div class="row clearfix">
+						<div class="col-lg-12">
+							<p>Jodi Ewart Shadoff is a fast-rising star in the prestigious Ladies Professional Golf Association ranking of women golfers worldwide. She is a professional golfer since 2010 and qualified for the LPGA Tour in 2011. Radar Tyres signed her as its brand ambassador back in April 2016. Jodi wears the Radar Tyres logo on her golf shirt, golf bag and other apparel at all tournaments where she plays. Jodi has been representing Radar Tyres at all major global ladies golf championships in the US, Europe and APAC. She has also been actively supporting the Breast Cancer Research Foundation(BCRF) with Radar Tyres since 2016.</p>
+						</div>
+					</div>
+			</div>
+
+		</section>
+
+		<!--CAREER HIGHLIGHTS start-->
+		<section id="full-width" class="full-section clearfix topmargin-lg list-tab-sec">
+			
+			<div class="container clearfix">
+
+        		<div class="heading-block about-sub-hd">
+        			<h2  class="pbxs">Career Highlights</h2>
+        		</div>
+        		<?php if(!empty($highlights)): ?>
+				<div class="tabs clearfix" id="tab-3">
+					<div class="row clearfix">
+						<div class="col-md-12">	
+							<div class="list-tab">
+							<ul class="tab-nav tab-nav2 clearfix">
+								<?php 
+								$keys=array_keys($highlights);
+								foreach($keys as $year):?>
+								<li><a href="#tabs-<?= $year; ?>"><?= $year; ?></a></li>
+								<?php endforeach;?>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<div class="tab-container list-content tournaments-content">
+						<?php foreach($keys as $year):?>
+						<div class="tab-content clearfix" id="tabs-<?= $year; ?>">
+							<div class="row clearfix">
+								<div class="col-lg-12">
+									
+				                  <div class="table-responsive-sm">
+				                    <table class="table golf-table">
+				                      <thead>
+				                        <tr>
+				                          <th>POS</th>
+				                          <th>Tournament</th>
+				                          <th>Location</th>
+				                        </tr>
+				                      </thead>
+				                      <tbody>
+										<?php 
+											foreach($highlights[$year] as $highlight):
+											$record=json_decode($highlight['post_meta'],true);
+										?>
+				                          <tr>
+				                            <td><?= $record['pos'];?></td>
+				                            <td><?= $record['title'];?></td>
+				                            <td><?= $record['location'];?></td>
+			                              </tr>
+										<?php endforeach;?>
+				                      </tbody>
+				                    </table>
+				                  </div>
+
+								</div>
+							</div>
+						</div>
+					<?php endforeach;?>
+					</div>
+				</div>
+				<?php else:?>
+					<p>Coming soon.</p>
+				<?php endif;?>
+		
+		    </div>
+		</section>
+	    <!--CAREER HIGHLIGHTS end-->
+
+
+		<!--2019 Tournaments start-->
+		<section id="full-width" class="full-section clearfix topmargin pbsm ptlg  list-tab-sec bg-gray">
+			
+			<div class="container clearfix">
+
+				<div class="heading-block about-sub-hd ptsm">
+					<h2 class="pbxs"><?= date('Y');?> Tournaments</h2>
+				</div>
+				
+												
+				<div class="tabs clearfix" id="tab-3">
+    				<div class="row clearfix">
+    					<div class="col-md-12">	
+    						<div class="list-tab">
+    						<ul class="tab-nav tab-nav2 clearfix">
+    							<li><a href="#tabs-upcoming">Upcoming</a></li>
+    							<li><a href="#tabs-previous">Previous</a></li>
+    						</ul>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="tab-container tournaments-content">
+    					<?php 
+    						if (!empty($tournaments)): 
+    						foreach ($tournaments as $key => $tournament):
+    					?>
+    					<div class="tab-content clearfix" id="tabs-<?= $key; ?>">
+    						<div class="row clearfix">
+    							<div class="col-lg-12">
+    
+    								<?php if (!empty($tournament)): ?>
+    									<div class="table-responsive-sm">
+    					                    <table class="table table golf-table">
+    					                      	<thead>
+    						                        <tr>
+    						                          	<th>Dates</th>
+    						                          	<th>Tournament</th>
+    						                          	<th>Location</th>
+    						                        </tr>
+    					                      	</thead>
+    					                      	<tbody>
+    											<?php foreach ($tournament as $record): ?>
+    					                          	<tr>
+    					                           		<td><?= $record['date']; ?></td>
+    				                            		<td><?= $record['title']; ?></td>
+    				                            		<td><?= $record['location']; ?></td>
+    				                              	</tr>
+    				                              	<?php endforeach; ?>
+    			                              	</tbody>
+    		                              	</table>
+    	                              	</div>
+    								<?php else: ?>
+    				                 	 
+    									<h3><?= $key==='upcoming'?'Coming Soon':'No tournaments utill now.'; ?></h3>
+    									
+                              		<?php endif; ?>
+    							</div>
+    						</div>
+    					</div>
+    					<?php endforeach; ?>
+    					<?php endif; ?>
+    				</div>
+			    </div>
+			
+			</div>
+		</section>
+		<!--2019 Tournaments end-->
+
+		<?php if(!empty($slider)):?>
+		<section id="slider" class="slider-element boxed-slider bottommargin">
+
+
+			<div class="container clearfix">
+				<div class="heading-block about-sub-hd ptsm">
+						<h2 class="pbxs center">Gallery</h2>
+					</div>
+				<div class="fslider golf-gallery" data-animation="slide" data-thumbs="true" data-arrows="ture" data-speed="1200" data-pause="7000">
+					<div class="flexslider">
+						<div class="slider-wrap">
+							<?php $slide_count=count($slider['images']); $i=1; foreach($slider['images'] as $image):?>
+							<div class="slide" data-thumb="<?= base_url('uploads/carousel_images/'.$image); ?>">
+								<a href="#">
+									<img <?= $i > 1 ? 'class="lozad" data-':''; ?>src="<?= base_url('uploads/carousel_images/'.$image); ?>" alt="<?= $image; ?>">
+								</a>
+							</div>
+							<?php $i++; endforeach;?>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+		<?php endif;?>
+
+
+		<section id="full-width" class="full-section  bg-gray ptxs pbxs">
+	
+			<div class="container clearfix marginTBS">
+
+					<div class="heading-block about-sub-hd">
+						<h2  class="">Renegade Program</h2>
+					</div>
+
+					<div class="row clearfix">
+						<div class="col-lg-12">
+							<p>The Renegade Program is about sharing our underdog spirit with drivers, athletes and sports persons across different fields. This program was launched in 2012 and it nurtures those who have world-class talent and a burning desire to achieve their ambitions but may be under represented in their fields. Through this program Radar Tyres provides a helping hand to those who dare to push the boundaries and undertake feats that others wouldn’t dare to think of.</p>
+						</div>
+					</div>
+			</div>
+
+		</section>
+					
+	</div>
+
+</section><!-- #content end -->

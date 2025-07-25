@@ -1,0 +1,64 @@
+<?php
+if (isset($sidepanel)) {	
+	foreach ($sidepanel as $key => $value) {
+		$$key=$value;
+	}
+}else{
+	$menu='';
+	$submenu='';
+}
+?>
+<div id="side-panel" class="dark">
+
+	<div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="icon-line-cross"></i></a></div>
+
+	<div class="side-panel-wrap">
+		<div class="widget clearfix">
+			<a class="side-panel-logo" href="index.php"><img src="img/main-logo.png"></a>
+			<nav class="nav-tree nobottommargin">
+				<ul>
+					<li class="<?php echo $menu==1 ? 'active' : ''; ?>"><a href="#">About Us</a>
+						<ul>
+							<li class="<?php echo $menu==1 && $submenu==1 ? 'active' : ''; ?>"><a href="about-us.php">Who Are We</a></li>
+							<li class="<?php echo $menu==1 && $submenu==2 ? 'active' : ''; ?>"><a href="misson-vision.php">Our Mission and Vision</a></li>
+							<li class="<?php echo $menu==1 && $submenu==3 ? 'active' : ''; ?>"><a href="our-values.php">Our Values</a></li>
+							<li class="<?php echo $menu==1 && $submenu==4 ? 'active' : ''; ?>"><a href="ceo-messages.php">Message from the CEO</a></li>
+							<li class="<?php echo $menu==1 && $submenu==5 ? 'active' : ''; ?>"><a href="leadership.php">Leadership Team</a></li>
+							<li class="<?php echo $menu==1 && $submenu==6 ? 'active' : ''; ?>"><a href="awards.php">Awards</a></li>
+							<li class="<?php echo $menu==1 && $submenu==7 ? 'active' : ''; ?>"><a href="our-story.php">Our Story</a></li>
+						</ul>
+					</li>
+					<li class="<?php echo $menu==2 ? 'active' : ''; ?>"><a href="#">Our Brands</a>
+						<ul>
+							<li class="<?php echo $menu==2 && $submenu==1 ? 'active' : ''; ?>"><a href="radar-brand.php">Radar</a></li>
+							<li class="<?php echo $menu==2 && $submenu==2 ? 'active' : ''; ?>"><a href="patriot-brand.php">Patriot</a></li>
+							<li class="<?php echo $menu==2 && $submenu==3 ? 'active' : ''; ?>"><a href="american-tourer-brand.php">American Tourer</a></li>
+							<li class="<?php echo $menu==2 && $submenu==4 ? 'active' : ''; ?>"><a href="#">Tecnica Concept</a></li>
+							<li class="<?php echo $menu==2 && $submenu==5 ? 'active' : ''; ?>"><a href="#">Roadlux</a></li>
+						</ul>
+					</li>
+					<li class="<?php echo $menu==3 ? 'active' : ''; ?>"><a href="#">Renegade Program</a>
+						<ul>
+							<li class="<?php echo $menu==3 && $submenu==1 ? 'active' : ''; ?>"><a href="#">Motorsports</a></li>
+							<li class="<?php echo $menu==3 && $submenu==2 ? 'active' : ''; ?>"><a href="golf.php">Golf</a></li>
+						</ul>
+					</li>
+					<li class="<?php echo $menu==4 ? 'active' : ''; ?>"><a href="#">Responsibility</a>
+						<ul>
+							<li class="<?php echo $menu==4 && $submenu==1 ? 'active' : ''; ?>"><a href="social-responsibility.php">Social</a></li>
+							<li class="<?php echo $menu==4 && $submenu==2 ? 'active' : ''; ?>"><a href="environmental-responsibility.php">Environmental</a></li>
+						</ul>
+					</li>
+					<li class="<?php echo $menu==5 ? 'active' : ''; ?>"><a href="#">Media Centre</a>
+						<ul>
+							<li class="<?php echo $menu==5 && $submenu==1 ? 'active' : ''; ?>"><a href="press-releases.php">Press Releases</a></li>
+							<li class="<?php echo $menu==5 && $submenu==2 ? 'active' : ''; ?>"><a href="media-coverages.php">Media Coverages</a></li>
+						</ul>
+					</li>
+					<li class="<?php echo $menu==6 ? 'active' : ''; ?>"><a href="contact-us.php">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+</div>

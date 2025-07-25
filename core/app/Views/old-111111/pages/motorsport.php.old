@@ -1,0 +1,549 @@
+<!-- Page Title
+============================================= -->
+
+<section id="page-title" class="page-title-dark page-title-right skrollable skrollable-between" style="padding: 300px 0; background-image: url('assets/img/motorsports-banner.jpg'); background-size: cover; background-position: center center;" data-bottom-top="background-position:0px 440px;" data-top-bottom="background-position:0px -500px;">
+
+	<div class="container clearfix">
+		<h1>&nbsp;</h1>
+		<span>&nbsp;</span>
+	</div>
+
+</section>
+<!-- #page-title end -->
+		
+
+<!-- Content
+============================================= -->
+<section id="content" class="golf-page">
+
+	<div class="content-wrap">
+		
+		<section id="full-width" class="full-section ptlg bg-gray pb">
+
+					<div class="container clearfix">
+
+						<div class="heading-block  center custom-heading-block about-heading">
+							<h2  class="pbxs">Radar Motorsport </h2>
+						</div>
+
+						<div class="row clearfix">
+							<div class="col-lg-12 center">
+								<span class="environmental-qoute"><span class="quotemark start">“ </span><i>Radar Tire’s continued success against some of the top tier tire brands in the world, further reassures the quality and brand commitment to our customers, reinforcing our promise to provide robust products at a reasonable price point.</i><span class="quotemark end"> ”</span></span>
+								<span class="qoute-name">G.S.Sareen, President and CEO, Omni United </span>
+							</div>
+
+						</div>
+
+					</div>
+
+		
+			
+					<div class="container clearfix topmargin-lg">
+
+							<div class="heading-block about-sub-hd">
+								<h2 class="">Sponsorship with Radar Tyres</h2>
+							</div>
+
+							<div class="row clearfix">
+								<div class="col-lg-12">
+									<p>Radar Tires entered the world of Motorsport back in 2013 with its first set of tires that were designed for extreme off-road desert racing. Within its first year of competition the team won an inaugural Baja 500 race and in just a few seasons, Radar Tires became a quality-demanded product in desert and short course racing.</p>
+
+									<p>Over the years Radar Tires has had multiple wins with its Renegade series of tires and has expanded its program to include sponsored participation with a variety of Renegade series products in multiple desert and short course series and classes.  </p>
+								</div>
+							</div>
+					</div>
+
+				</section>
+
+				<!--2019 Tournaments start-->
+				<section id="full-width" class="full-section clearfix topmargin pbsm list-tab-sec">						
+					<div class="container clearfix">
+
+						<div class="heading-block about-sub-hd ptsm">
+							<h2 class="pbxs">2019 Race Calendar</h2>
+						</div>
+						<div class="tabs clearfix" id="tab-3">
+							<div class="row clearfix">
+								<div class="col-md-12">	
+									<div class="list-tab">
+									<ul class="tab-nav tab-nav2 clearfix">
+										<li><a href="#tabs-25">Upcoming</a></li>
+										<li><a href="#tabs-26">Previous</a></li>
+									</ul>
+									</div>
+								</div>
+							</div>
+							<div class="tab-container tournaments-content">
+								<div class="tab-content clearfix" id="tabs-25">
+									<div class="row clearfix">
+										<div class="col-lg-12">
+											
+						                  <div class="table-responsive-sm">
+						                    <table class="table golf-table motorsport-table">
+						                      <thead>
+						                        <tr>
+						                          <th>Dates</th>
+						                          <th>Tournament</th>
+						                          <th>Location</th>
+						                        </tr>
+						                      </thead>
+						                      <tbody>
+						                          <tr>
+						                            <td>5<sup>th</sup> Oct</td>
+						                            <td>Glen Helen Raceway (SAT NIGHT)</td>
+						                            <td>San Bernardino, CA</td>
+						                          </tr>
+						                          <tr>
+						                            <td>26<sup>th</sup> Oct</td>
+						                            <td>Wild Horse Motorsports Park (SAT DAY, POINTS RACE/NIGHT, CUP RACE)</td>
+						                            <td>Chandler, AZ</td>
+						                          </tr></tbody>
+						                    </table>
+						                  </div>
+    
+										</div>
+									</div>
+								</div>
+								<div class="tab-content clearfix" id="tabs-26">
+									<div class="row clearfix">
+											
+										<div class="col-lg-12">
+												
+						                  	<div class="table-responsive-sm">
+							                    <table class="table golf-table motorsport-table">
+							                      <thead>
+							                        <tr>
+							                          <th>Dates</th>
+							                          <th>Tournament</th>
+							                          <th>Location</th>
+							                        </tr>
+							                      </thead>
+							                      <tbody><tr>
+							                      	  <td>31<sup>st</sup> Aug - 1<sup>st</sup> Sep</td>
+							                            <td>Crandon 50th Anniversary World Cup Race - Crandon SCORE International Raceway</td>
+							                            <td>Crandon, WI</td>
+						                              </tr>
+							                          <tr>
+							                            <td>16<sup>th</sup> Mar, 2019</td>
+							                            <td>Glen Helen Raceway (SAT NIGHT)</td>
+							                            <td>San Bernardino, CA</td>
+						                              </tr>
+							                          <tr>
+							                            <td>13<sup>th</sup> Apr, 2019</td>
+							                            <td>Wild Horse Motorsports Park (SAT NIGHT)</td>
+							                            <td>Chandler, AZ</td>
+						                              </tr>
+							                         </tbody>
+							                    </table>
+							                  </div>
+        
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+				<!--2019 Tournaments end-->
+
+				<!--CAREER HIGHLIGHTS start-->
+				<section id="full-width" class="full-section clearfix list-tab-sec pb ptlg bg-gray">						
+					<div class="container clearfix">
+
+						<div class="heading-block about-sub-hd">
+							<h2  class="pbxs">Race Wins</h2>
+						</div>
+							
+															
+						<div class="tabs clearfix" id="tab-3">
+							<div class="row clearfix">
+								<div class="col-md-12">	
+									<div class="list-tab">
+									<ul class="tab-nav tab-nav2 clearfix">
+										<li><a href="#tabs-21">2018</a></li>
+										<li><a href="#tabs-22">2017</a></li>
+										<li><a href="#tabs-23">2016</a></li>
+										<li><a href="#tabs-24">2015</a></li>
+										<li><a href="#tabs-25">2014</a></li>
+										<li><a href="#tabs-26">2013</a></li>
+									</ul>
+									</div>
+								</div>
+							</div>
+							<div class="tab-container list-content motor-content">
+								<div class="tab-content clearfix" id="tabs-21">
+				                  	<div class="table-responsive-sm">
+
+					                    <table class="table motorsports-table">
+					                      	<thead>
+						                        <tr>
+						                          <th>POS</th>
+						                          <th>RACE</th>
+						                          <th>MONTH/YEAR</th>
+						                          <th>DRIVER</th>
+						                        </tr>
+					                      	</thead>
+					                      	<tbody>
+					                       
+					                          <tr>
+					                            <td>2<sup>nd</sup></td>
+					                            <td>Lucas Oil Midwest Racing Series PRO 2</td>
+					                            <td>August 2018</td>
+					                            <td>Daely Pentico</td>
+					                          </tr>
+					                          
+					                          <tr>
+					                            <td>2<sup>nd</sup></td>
+					                            <td>Lucas Oil Midwest Racing Series PRO 2</td>
+					                            <td>July 2018</td>
+					                            <td>Daely Pentico</td>
+					                          </tr>
+					                         
+				                          	</tbody>
+					                    </table>
+
+				                  	</div>
+				                </div>
+								<div class="tab-content clearfix" id="tabs-22">
+					                  <div class="table-responsive-sm">
+						                    <table class="table motorsports-table">
+						                      <thead>
+						                        <tr>
+						                          <th>POS</th>
+						                          <th>RACE</th>
+						                          <th>MONTH/YEAR</th>
+						                          <th>DRIVER</th>
+						                        </tr>
+						                      </thead>
+						                      <tbody>
+						                       
+						                          <tr>
+						                            <td>Champion</td>
+						                            <td>SCORE International Baja 500 Class 12</td>
+						                            <td>June 2017</td>
+						                            <td>Matt Ferrato</td>
+						                          </tr>
+						                          
+						                          <tr>
+						                            <td>Champion</td>
+						                            <td>Motion Tire Ridgecrest 300</td>
+						                            <td>April 2017</td>
+						                            <td>Matt Ferrato</td>
+						                          </tr>
+						                          
+						                          <tr>
+						                            <td>2<sup>nd</sup></td>
+						                            <td>Battle at Primm</td>
+						                            <td>February 2017</td>
+						                            <td>Richard Glaszczak</td>
+						                          </tr>
+						                         
+						                          </tbody>
+						                    </table>
+						                  </div>
+				                </div>
+								<div class="tab-content clearfix" id="tabs-23">
+		                                  <div class="table-responsive-sm">
+		                                      <table class="table motorsports-table">
+		                                        <thead>
+		                                          <tr>
+		                                            <th>POS</th>
+		                                            <th>RACE</th>
+		                                            <th>MONTH/YEAR</th>
+		                                            <th>DRIVER</th>
+		                                          </tr>
+		                                        </thead>
+		                                        <tbody>
+		                                         
+		                                            <tr>
+		                                              <td>Champion</td>
+		                                              <td>Lucas Oil Midwest Racing Series PRO 2</td>
+		                                              <td>September 2016</td>
+		                                              <td>Richard Glaszczak</td>
+		                                            </tr>
+		                                            
+		                                            <tr>
+		                                              <td>3<sup>rd</td>
+		                                              <td>Lucas Oil Midwest Racing Series PRO 2</td>
+		                                              <td>March 2016</td>
+		                                              <td>Coleman Motorsports</td>
+		                                            </tr>
+		                                            
+		                                            <tr>
+		                                              <td>2<sup>nd</sup></td>
+		                                              <td>SCORE International San Felipe 250 Class SCORE LITES</td>
+		                                              <td>February 2016</td>
+		                                              <td>Matt Ferrato</td>
+		                                            </tr>
+
+		                                            <tr>
+		                                              <td>2<sup>nd</sup></td>
+		                                              <td>Best in the Desert (BITD) Parker 425 Class 1000</td>
+		                                              <td>February 2016</td>
+		                                              <td>Coleman Motorsports</td>
+		                                            </tr>
+		                                           
+		                                            </tbody>
+		                                      </table>
+		                                    </div>
+	                            </div>
+								<div class="tab-content clearfix" id="tabs-24">
+									<div class="table-responsive-sm">
+                                      <table class="table motorsports-table">
+                                        <thead>
+                                          <tr>
+                                            <th>POS</th>
+                                            <th>RACE</th>
+                                            <th>MONTH/YEAR</th>
+                                            <th>DRIVER</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                         
+                                            <tr>
+                                              <td>Champion</td>
+                                              <td>Best in the Desert (BITD) Silverstate 300 Class 1000</td>
+                                              <td>May 2015</td>
+                                              <td>Cody Robinson/Kyle Conlon</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                              <td>2<sup>nd</sup></td>
+                                              <td>Best in the Desert (BITD) Silverstate 300 Class 1000</td>
+                                              <td>May 2015</td>
+                                              <td>Coleman Motorsports</td>
+                                            </tr>  
+                                          </tbody>
+                                      </table>
+                                    </div>
+                   				</div>
+								<div class="tab-content clearfix" id="tabs-25">
+                                  	<div class="table-responsive-sm">
+                                      <table class="table motorsports-table">
+                                        <thead>
+                                          <tr>
+                                            <th>POS</th>
+                                            <th>RACE</th>
+                                            <th>MONTH/YEAR</th>
+                                            <th>DRIVER</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                         
+                                            <tr>
+                                              <td>Champion</td>
+                                              <td>SCORE International Baja 1000 Class 10</td>
+                                              <td>November 2014</td>
+                                              <td>Bronson Motorsports</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                              <td>2<sup>nd</sup></td>
+                                              <td>SCORE International Desert Challenge Class 10</td>
+                                              <td>September 2014</td>
+                                              <td>Bronson Motorsports</td>
+                                            </tr> 
+
+                                            <tr>
+                                              <td>3<sup>rd</sup></td>
+                                              <td>SCORE International Desert Challenge Class 10</td>
+                                              <td>September 2014</td>
+                                              <td>Robinson Romo Racing Team</td>
+                                            </tr> 
+
+                                            <tr>
+                                              <td>2<sup>nd</sup></td>
+                                              <td>Best In The Desert Series (BITD)</td>
+                                              <td>August 2014</td>
+                                              <td>Coleman Motorsports</td>
+                                            </tr> 
+
+                                            <tr>
+                                              <td>Champion</td>
+                                              <td>SCORE International Baja 500 Class 10</td>
+                                              <td>June 2014</td>
+                                              <td>Bronson Motorsports</td>
+                                            </tr> 
+
+                                            <tr>
+                                              <td>2<sup>nd</sup></td>
+                                              <td>SCORE International Imperial Valley 250 Class 10</td>
+                                              <td>April 2014</td>
+                                              <td>Bronson Motorsports</td>
+                                            </tr> 
+
+                                            <tr>
+                                              <td>Champion</td>
+                                              <td>SCORE International San Felipe 250 Class 10</td>
+                                              <td>February 2014</td>
+                                              <td>Robinson Romo Racing Team</td>
+                                            </tr>  
+                                          </tbody>
+                                      </table>
+                                	</div>
+                                </div>
+								<div class="tab-content clearfix" id="tabs-26">
+                                  	<div class="table-responsive-sm">
+
+	                                  	<table class="table motorsports-table">
+	                                        <thead>
+	                                          <tr>
+	                                            <th>POS</th>
+	                                            <th>RACE</th>
+	                                            <th>MONTH/YEAR</th>
+	                                            <th>DRIVER</th>
+	                                          </tr>
+	                                        </thead>
+	                                        <tbody>                                  
+	                                            <tr>
+	                                              <td>Champion</td>
+	                                              <td>SCORE International Baja 500 Class 10</td>
+	                                              <td>June 2013</td>
+	                                              <td>Bronson Motorsports</td>
+	                                            </tr>
+	                                            
+	                                            <tr>
+	                                              <td>3<sup>rd</td>
+	                                              <td>SCORE International San Felipe 250 Class 10</td>
+	                                              <td>February 2013</td>
+	                                              <td>Bronson Motorsports</td>
+	                                            </tr> 
+
+	                                            <tr>
+	                                              <td>Champion</td>
+	                                              <td>Mojave Off-Road Race (MORE)</td>
+	                                              <td>January 2013</td>
+	                                              <td>Bronson Motorsports</td>
+	                                            </tr> 
+	                                      	</tbody>
+	                                  	</table>
+
+                                	</div>
+			                    </div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--CAREER HIGHLIGHTS end-->
+
+				<section class="brand-tabs-section ptlg pblg ">
+					<div class="container clearfix">
+						<div class="heading-block about-sub-hd">
+							<h2 class="pbxs bottommargin">Racing Tires</h2>
+						</div>
+						<div class="row motorsport-tire clearfix">
+		                 <div class="col-md-6">
+		                    <div class="brand-product-item center">
+		                      <h2 class="product-title"><a class="ColorRed" href="<?= base_url('radar/renegade-a-t5');?>">Renegade<sup class="deffont">®</sup> A/T5</a></h2>
+		                      <div class="product-meta ColorBlack">All Season | All Terrain</div>
+		                      <div class="product-image"> <a href="<?= base_url('radar/renegade-a-t5');?>"><img src="<?= base_url('assets/img/brand-products/Radar/Renegade AT5-19.jpg') ?>" alt="Renegade AT5-19"></a> </div>
+		                    </div>
+		                  </div>
+
+		                   <div class="col-md-6">
+		                    <div class="brand-product-item center">
+		                      <h2 class="product-title"><a class="ColorRed" href="<?= base_url('radar/renegade-rt');?>">Renegade<sup class="deffont">®</sup> R/T</a></h2>
+		                      <div class="product-meta ColorBlack">All Season | Rugged Terrain</div>
+		                      <div class="product-image"> <a href="<?= base_url('radar/renegade-rt');?>"><img src="<?= base_url('assets/img/brand-products/Radar/Renegade_RT (RT+)-19.jpg') ?>" alt="Renegade_RT (RT+)-19"></a> </div>
+		                    </div>
+		                  </div>
+	                	</div>
+
+	                	<div class="row motorsport-tire clearfix topmargin-lg">
+		                  <div class="col-md-6">
+		                    <div class="brand-product-item center">
+		                      <h2 class="product-title"><a class="ColorRed" href="<?= base_url('radar/renegade-r5');?>">Renegade<sup class="deffont">®</sup> R5 M/T</a></h2>
+		                      <div class="product-meta ColorBlack">All Season | Mud Terrain</div>
+		                      <div class="product-image"> <a href="<?= base_url('radar/renegade-r5');?>"><img src="<?= base_url('assets/img/brand-products/Radar/Renegade R5.jpg') ?>" alt="Renegade R5"></a> </div>
+		                    </div>
+		                  </div>
+
+		                  <div class="col-md-6">
+		                    <div class="brand-product-item center">
+		                      <h2 class="product-title"><a class="ColorRed" href="<?= base_url('radar/renegade-r7-mt');?>">Renegade<sup class="deffont">®</sup> R7 M/T</a></h2>
+		                      <div class="product-meta ColorBlack">All Season | Mud Terrain</div>
+		                      <div class="product-image"> <a href="<?= base_url('radar/renegade-r7-mt');?>"><img src="<?= base_url('assets/img/brand-products/Radar/Renegade R7-19.jpg') ?>" alt="Renegade R7-19"></a> </div>
+		                    </div>
+		                  </div>
+	                	</div>
+					</div>
+				</section>
+
+
+				<section id="slider" class="slider-element boxed-slider bottommargin pblg ptlg bg-gray ">
+
+
+					<div class="container clearfix">
+						<div class="heading-block about-sub-hd ptsm">
+								<h2  class="pbxs center">Gallery</h2>
+							</div>
+						<div class="fslider golf-gallery" data-animation="slide" data-thumbs="true" data-arrows="ture" data-speed="1200" data-pause="7000">
+							<div class="flexslider">
+								<div class="slider-wrap">
+									<div class="slide" data-thumb="<?= base_url('assets/img/gallery/motorsports/motorsports_01.jpg') ?>">
+										<a href="#">
+											<img src="<?= base_url('') ?>assets/img/gallery/motorsports/motorsports_01.jpg" alt="motorsports_01">
+										</a>
+									</div>
+									<div class="slide" data-thumb="<?= base_url('assets/img/gallery/motorsports/motorsports_02.jpg') ?>">
+										<a href="#">
+											<img src="<?= base_url('assets/img/gallery/motorsports/motorsports_02.jpg') ?>" alt="motorsports_02">
+										</a>
+									</div>
+									<div class="slide" data-thumb="<?= base_url('assets/img/gallery/motorsports/motorsports_03.jpg') ?>">
+										<a href="#">
+											<img src="<?= base_url('assets/img/gallery/motorsports/motorsports_03.jpg') ?>" alt="motorsports_03">
+										</a>
+									</div>
+									<div class="slide" data-thumb="<?= base_url('assets/img/gallery/motorsports/motorsports_04.jpg') ?>">
+										<a href="#">
+											<img src="<?= base_url('assets/img/gallery/motorsports/motorsports_04.jpg') ?>" alt="motorsports_04">
+										</a>
+									</div>
+									<div class="slide" data-thumb="<?= base_url('assets/img/gallery/motorsports/motorsports_05.jpg') ?>">
+										<a href="#">
+											<img src="<?= base_url('assets/img/gallery/motorsports/motorsports_05.jpg') ?>" alt="motorsports_05">
+										</a>
+									</div>
+									<div class="slide" data-thumb="<?= base_url('assets/img/gallery/motorsports/motorsports_06.jpg') ?>">
+										<a href="#">
+											<img src="<?= base_url('assets/img/gallery/motorsports/motorsports_06.jpg') ?>" alt="motorsports_06">
+										</a>
+									</div>
+
+									<div class="slide" data-thumb="<?= base_url('assets/img/gallery/motorsports/motorsports_07.jpg') ?>">
+										<a href="#">
+											<img src="<?= base_url('assets/img/gallery/motorsports/motorsports_07.jpg') ?>" alt="motorsports_07">
+										</a>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+
+				<section id="full-width" class="full-section  pbxs">
+			
+					<div class="container clearfix marginTBS">
+
+							<div class="heading-block about-sub-hd">
+								<h2  class="">Renegade Program</h2>
+							</div>
+
+							<div class="row clearfix">
+								<div class="col-lg-12">
+									<p>The Renegade Program is about sharing our underdog spirit with drivers, athletes and sports persons across different fields. This program was launched in 2012 and it nurtures those who have world-class talent and a burning desire to achieve their ambitions but may be under represented in their fields. Through this program Radar Tires provides a helping hand to those who dare to push the boundaries and undertake feats that others wouldn’t dare to think of.</p>
+								</div>
+							</div>
+					</div>
+
+				</section>
+	</div>
+
+</section><!-- #content end -->

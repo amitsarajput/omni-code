@@ -1,0 +1,178 @@
+		<!-- Page Title
+		============================================= -->
+					
+		<section id="page-title" class="page-title-dark page-title-right skrollable skrollable-between environment-banner-mobile lozad-background" data-background-image="<?= base_url('assets/img/environment-banner-1.webp') ?>" style="padding: 300px 0; background-size: cover; background-position: center center;" data-bottom-top="background-position:0px 440px;" data-top-bottom="background-position:0px -500px;">
+
+			<div class="container clearfix">
+				<h1>&nbsp;</h1>
+				<span>&nbsp;</span>
+			</div>
+
+		</section><!-- #page-title end -->
+		
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+
+				<section id="full-width" class="full-section ptlg">
+
+					<div class="container clearfix">
+
+						<div class="heading-block  center custom-heading-block about-heading green-colr">
+							<h2>Environmental Responsibility</h2>
+						</div>
+
+						<div class="row clearfix">
+							<div class="col-lg-12 center">
+								<span class="environmental-qoute">
+									<span class="quotemark start">“ </span> <i>We cannot transform the world alone, but we want to demonstrate that if a company like ours can invest the time, effort and resources necessary to make a difference, then anyone can.</i> <span class="quotemark end"> ”</span>
+								</span>
+								<span class="qoute-name">G.S.Sareen, President and CEO, Omni United</span>
+							</div>
+
+						</div>
+
+					</div>
+
+					<section class="environment-sec">
+
+						<!--<div class="container clearfix marginTBS">
+
+							<div class="heading-block about-sub-hd">
+								<h2>Our Impact</h2>
+							</div>
+
+							<div class="row clearfix">
+								<div class="col-lg-12">
+									<div class="social-reponsibility-number">
+        								<div class="data-text text-green">
+        									<span class="cnt">670,000</span>
+        								</div>
+        								<div class="data-caption">
+        									tons of<br> CO2 off-set
+        								</div>
+        							</div>
+								</div>
+							</div>
+							<div class="row">
+        						<div class="col-sm-12 topmargin">
+        							<small><i>Last Updated: 2020</i></small>
+        						</div>
+					        </div>
+						</div>-->
+
+						<div class="container clearfix marginTBS">
+
+							<div class="heading-block about-sub-hd">
+								<h2>Giving Back to the Environment</h2>
+							</div>
+
+							<div class="row clearfix">
+								<div class="col-lg-12">
+									<p>We at Omni United always strive to deliver outstanding qualitative and innovative products to our consumers. Over the last decade we have grown and with that, so has the impact of our activities. It is our role to proactively engage and influence all functions along our value chain towards sustainable mobility. We are aware of the impact of our operations and our products on the environment and we aim to reduce their negative effect progressively in collaboration with our external partners.</p>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="container clearfix marginTBS">
+
+							<div class="heading-block about-sub-hd">
+								<h2>MANUFACTURED CARBON NEUTRAL</h2>
+								<!--<h2>the MANUFACTURED CARBON NEUTRAL Tyre Brand</h2>-->
+							</div>
+
+							<div class="row clearfix">
+								<div class="col-lg-12">
+									<p class="">In 2012, we commissioned EY (Ernst & Young) to do an in-depth study on the impact of the production footprint of Radar, our flagship brand on the environment. EY examined and quantified the amount of greenhouse gases (primarily carbon dioxide) produced, from procuring raw materials to manufacturing, distribution, and energy used in the company’s offices and employees' travel. Based on the study recommendations, we undertook a number of changes to our business processes and actions geared to offset the carbon footprint, such as investing in projects ranging from reforestation to agroforestry. As a result, Radar Tyres became the first tyre brand to be manufactured carbon neutral by late 2013. From 2021, furthering our plan on Carbon neutrality, we became Carbon Neutral from cradle to grave for certain geographies and products while working with our overall Carbon management plan to remain Carbon Neutral till 2030 in line with requirements of PAS 2060. Ernst and Young has provided external limited assurance over this.</p>
+								</div>
+
+
+							</div>
+							
+							<div class="row clearfix  topmargin-sm">
+								<div class="col-lg-12">
+								    <h3 class="bottommargin-xs"><b>2023</b></h3> 
+									<p class="nobottommargin"><b>VIEW OUR ANNUAL QUALIFYING EXPLANATORY STATEMENT(QES)</b><br> <span style="color:#DA2224;">&bull;</span> 
+									<a href="<?= base_url('brochures/QES_2023.pdf') ?>" target="_blank" class="color">Download</a></p>
+									<p><b>VIEW OUR CARBON-NEUTRAL CERTIFICATES</b><br> <span style="color:#DA2224;">&bull;</span>
+									<a href="<?= base_url('brochures/Assurance_Statement_2023.pdf') ?>" target="_blank" class="color">Download</a></p>
+								</div>
+							</div>
+							
+							<div class="row clearfix  topmargin-sm">
+								<div class="col-lg-12">
+								    <h3 class="bottommargin-xs"><b>2022</b></h3> 
+									<p class="nobottommargin"><b>VIEW OUR ANNUAL QUALIFYING EXPLANATORY STATEMENT(QES)</b><br> <span style="color:#DA2224;">&bull;</span> 
+									<a href="<?= base_url('brochures/QES-2022.pdf') ?>" target="_blank" class="color">Download</a></p>
+									<p><b>VIEW OUR CARBON NEUTRAL CERTIFICATES</b><br> <span style="color:#DA2224;">&bull;</span>
+									<a href="<?= base_url('brochures/Omni_GHG-2022.pdf') ?>" target="_blank" class="color">Download</a></p>
+								</div>
+							</div>
+							
+							<div class="row clearfix  topmargin-sm">
+								<div class="col-lg-12">
+								    <h3 class="bottommargin-xs"><b>2021</b></h3>
+									<p class="nobottommargin"><b>VIEW OUR ANNUAL QUALIFYING EXPLANATORY STATEMENT(QES)</b><br> <span style="color:#DA2224;">&bull;</span> 
+									<a href="<?= base_url('brochures/QES-2021.pdf') ?>" target="_blank" class="color">Download</a></p>
+									<p><b>VIEW OUR CARBON NEUTRAL CERTIFICATES</b><br> <span style="color:#DA2224;">&bull;</span>
+									<a href="<?= base_url('brochures/Omni_GHG-2021.pdf') ?>" target="_blank" class="color">Download</a></p>
+								</div>
+							</div>
+							
+						<!--<div class="container clearfix marginTBS">-->
+
+						<!--	<div class="heading-block about-sub-hd">-->
+						<!--		<h2>Our Carbon Neutral Journey and Way forward</h2>-->
+						<!--	</div>-->
+
+						<!--	<div class="row clearfix">-->
+						<!--		<div class="col-lg-12">-->
+						<!--			<p><b>2011</b><br>-->
+						<!--			Thinking ahead of the curve, we started strategizing our sustainability strategy 1.0. -->
+						<!--			</p>-->
+						<!--		</div>-->
+
+
+						<!--	</div>-->
+						<!--</div>-->
+
+					</section>
+
+
+					<section>
+
+						<div class="container clearfix marginTBS">
+
+							<div class="heading-block about-sub-hd">
+								<!--<h2 class="text-center">On Becoming Carbon Neutral</h2>-->
+								<h2 class="text-center">Our Sustainability and Giving Back Philosophy</h2>
+							</div>
+
+							<div class="col-md-10 offset-md-1 nopadding bottommargin-lg">
+							    <iframe width="560" height="315" src="https://www.youtube.com/embed/51noIoC99xc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<!--<video poster="<?= base_url('assets/img/videos/carbon-neutral-video.jpg') ?>" preload="none" controls style="display: block; width: 100%;">
+									<source src='<?= base_url('assets/img/videos/In-Conversation-with-GS-Sareen-2.webm') ?>' type='video/webm' />
+									<source src='<?= base_url('assets/img/videos/In-Conversation-with-GS-Sareen-2.mp4') ?>' type='video/mp4' />
+								</video>-->
+
+							</div>
+
+							<!--<div class="row">
+								<div class="col-sm-12 text-center topmargin video-archives">
+									<small><i>Video Archives</i></small>
+								</div>
+							</div>-->
+						</div>
+
+					</section>
+
+				</section>
+
+			</div>
+
+		</section><!-- #content end -->

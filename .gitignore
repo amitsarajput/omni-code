@@ -1,0 +1,11 @@
+.env
+storage/
+assets/*
+storage/*
+core/.env
+core/writable/
+core/tests/
+core/vendor/
+core/codeigniter4-framework-v4.5.5-0-g2849e7f.zip
+.git/
+.vscode/
