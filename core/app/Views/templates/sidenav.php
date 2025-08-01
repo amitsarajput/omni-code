@@ -31,8 +31,10 @@
 							<!--<li class="<?= $menu==2 && $submenu==8 ? 'active' : ''; ?>"><a href="<?= base_url('agora');?>">Agora</a></li>-->
 							<li class="<?= $menu==2 && $submenu==5 ? 'active' : ''; ?>"><a href="<?= base_url('roadlux');?>">Roadlux</a></li>
 							<!--<li class="<?= $menu==2 && $submenu==7 ? 'active' : ''; ?>"><a href="<?= base_url('dealer-login');?>">Dealer Corner</a></li>-->
-							<li class="<?= $menu==2 && $submenu==7 ? 'active' : ''; ?>"><a href="https://radartires.com/us#dealer-locator">Dealer Locator - North America</a></li>
-							<li class="<?= $menu==2 && $submenu==8 ? 'active' : ''; ?>"><a href="https://radartyres.com/eu#dealer-locator">Dealer Locator - UK/Europe</a></li>
+
+							<!--<li class="<?= $menu==2 && $submenu==7 ? 'active' : ''; ?>"><a href="https://radartires.com/us#dealer-locator">Dealer Locator - North America</a></li>
+							<li class="<?= $menu==2 && $submenu==8 ? 'active' : ''; ?>"><a href="https://radartyres.com/eu#dealer-locator">Dealer Locator - UK/Europe</a></li>-->
+
 							<li class="<?= $menu==2 && $submenu==10 ? 'active' : ''; ?>"><a href="<?= base_url('radar/rpx-800-test-results');?>">Radar Test Results</a></li>
 							<!--<li class="<?= $menu==2 && $submenu==6 ? 'active' : ''; ?>"><a href="<?= base_url('t-and-c');?>">Terms & Conditions</a></li>-->
 						</ul>

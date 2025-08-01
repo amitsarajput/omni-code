@@ -29,8 +29,8 @@
 								<a href="<?= base_url('tecnica');?>">Tecnica</a>
 								<!--<a href="<?= base_url('agora');?>">Agora</a>-->
 								<a href="<?= base_url('roadlux');?>">Roadlux</a>
-								<a href="https://radartires.com/us#dealer-locator">Dealer Locator - North America</a>
-								<a href="https://radartyres.com/eu#dealer-locator">Dealer Locator - Europe</a>
+								<!--<a href="https://radartires.com/us#dealer-locator">Dealer Locator - North America</a>
+								<a href="https://radartyres.com/eu#dealer-locator">Dealer Locator - Europe</a>-->
 								<a href="<?= base_url('radar/rpx-800-test-results');?>">Radar Test Results</a>
 								<!--<a href="<?= base_url('dealer-login');?>">Dealer Corner</a>-->
 							</li>

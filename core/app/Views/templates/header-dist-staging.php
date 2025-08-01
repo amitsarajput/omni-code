@@ -183,7 +183,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						
 						
 						<!--Dealer drop down-->
-						<?php require_once(APPPATH.'Views/templates/dealer-drop-top.php'); ?>
+						<?php 
+						//require_once(APPPATH.'Views/templates/dealer-drop-top.php'); 
+						?>
 
 						<!-- Top Search
 						============================================= -->

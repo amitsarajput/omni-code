@@ -6,8 +6,8 @@ use CodeIgniter\Config\BaseConfig;
 
 class Email extends BaseConfig
 {
-    public string $fromEmail  = 'webmail@radartires.com';
-    public string $fromName   = 'Omni United Enquiry';
+    public string $fromEmail  = '';
+    public string $fromName   = '';
     public string $recipients = '';
 
     /**
@@ -19,7 +19,7 @@ class Email extends BaseConfig
      * The mail sending protocol: mail, sendmail, smtp
      */
     //public string $protocol = 'mail';
-    public string $protocol = 'smtp';
+    public string $protocol = '';
 
     /**
      * The server path to Sendmail.
@@ -29,17 +29,17 @@ class Email extends BaseConfig
     /**
      * SMTP Server Hostname
      */
-    public string $SMTPHost = 'smtp.office365.com';
+    public string $SMTPHost = '';
 
     /**
      * SMTP Username
      */
-    public string $SMTPUser = 'webmail@radartires.com';
+    public string $SMTPUser = '';
 
     /**
      * SMTP Password
      */
-    public string $SMTPPass = 'W/787523758149ur';
+    public string $SMTPPass = '';
 
     /**
      * SMTP Port
@@ -63,7 +63,7 @@ class Email extends BaseConfig
      *             to the server. 'ssl' means implicit SSL. Connection on port
      *             465 should set this to ''.
      */
-    public string $SMTPCrypto = 'tls';
+    public string $SMTPCrypto = '';
 
     /**
      * Enable word-wrap
@@ -121,4 +121,18 @@ class Email extends BaseConfig
      * Enable notify message from server
      */
     public bool $DSN = false;
+
+    public function __construct()
+    {
+        $this->fromEmail   = env('MAIL_FROM_ADDRESS');
+        $this->fromName    = env('MAIL_FROM_NAME');
+        $this->protocol    = env('MAIL_MAILER', 'smtp');
+        $this->SMTPHost    = env('MAIL_HOST');
+        $this->SMTPUser    = env('MAIL_USERNAME');
+        $this->SMTPPass    = env('MAIL_PASSWORD');
+        $this->SMTPPort    = (int) env('MAIL_PORT', 587);
+        $this->SMTPCrypto  = env('MAIL_ENCRYPTION', 'tls');
+    }
+
+
 }

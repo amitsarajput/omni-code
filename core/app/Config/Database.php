@@ -24,13 +24,14 @@ class Database extends Config
      *
      * @var array<string, mixed>
      */
+
     public array $default = [
         'DSN'          => '',
-        'hostname'     => '172.18.0.3',
-        'username'     => 'staging_omni',
-        'password'     => 'tTHmedZCsG37HmAk',
-        'database'     => 'staging_omni',
-        'DBDriver'     => 'MySQLi',
+        'hostname'     => '',
+        'username'     => '',
+        'password'     => '',
+        'database'     => '',
+        'DBDriver'     => '',
         'DBPrefix'     => '',
         'pConnect'     => false,
         'DBDebug'      => true,
@@ -190,7 +191,12 @@ class Database extends Config
     public function __construct()
     {
         parent::__construct();
-
+        $this->hostname=getenv('DATABASE_DEFAULT_HOSTNAME');
+        $this->username=getenv('DATABASE_DEFAULT_USERNAME');
+        $this->password=getenv('DATABASE_DEFAULT_PASSWORD');
+        $this->database=getenv('DATABASE_DEFAULT_DATABASE');
+        $this->DBDriver=getenv('DATABASE_DEFAULT_DBDRIVER');
+        $this->port=getenv('DATABASE_DEFAULT_PORT');
         // Ensure that we always set the database group to 'tests' if
         // we are currently running an automated test suite, so that
         // we don't overwrite live data on accident.

@@ -4,6 +4,7 @@ use CodeIgniter\Router\RouteCollection;
 
 
 
+$routes->get('send-test-email', 'EmailTestController::sendEmail');
 
 
 //$routes->get('contact-us', 'Pages::contact_us');

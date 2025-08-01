@@ -109,13 +109,14 @@
 									<?php if (isset($error) && $error['status']): ?>
 										<div class="col_full">
 											<div class="alert alert-danger" role="alert">
-												<?= $error['message']; ?>
+												<?php $error['message']; ?>
 											</div>
 										</div>
 									<?php endif; ?>
 									
 									<div class="alert alert-danger error" role="alert">
 									</div>
+									
 									<div class='clear'></div>	
 									<div class="col_ful">
 										<input type="text" id="" name="name" placeholder="NAME*" value="<?= (isset($result) && $result['status'])?'':set_value('name');?>" class="sm-form-control required" required />

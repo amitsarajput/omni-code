@@ -59,7 +59,7 @@
 								<div class="slider-caption slider-caption-center">
 									<h2>RADAR TIRES NORTH AMERICA DEALER LOCATOR</h2>
 									<p class="">Find a Dealer Near You</p>
-									<a class="btn radar-button" href="<?= base_url('north-america-dealer-locator') ?>">Click Here</a>
+									<a class="btn radar-button" href="https://radartires.com/#dealer-locator">Click Here</a>
 								</div>
 							</div>
 						</div>

@@ -1,5 +1,6 @@
 .env
-storage/
+env
+/storage
 assets/*
 storage/*
 core/.env

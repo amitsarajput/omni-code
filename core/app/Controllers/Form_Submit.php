@@ -41,6 +41,7 @@ class Form_Submit extends BaseController {
 	{
         if (!$captcha || !verifyRecaptcha($captcha)) {
             return redirect()->back()->with('error', 'reCAPTCHA verification failed.');
+			//return true;
         }else{
 			return true;
 		}
@@ -138,16 +139,18 @@ class Form_Submit extends BaseController {
 	    $cap_responce=$this->check_captcha($this->request->getPost('g-recaptcha'));
 	    
 	    if ($cap_responce) {
+
     		$validation->setRule('name', 'Name', 'trim|required|min_length[3]');
         	$validation->setRule('email', 'Email', 'trim|required');
         	$validation->setRule('region', 'Region', 'trim|required|min_length[3]');
-        	$validation->setRule('country', 'Country', 'trim|required|alpha_dash|min_length[3]');
+        	$validation->setRule('country', 'Country', 'trim|required|alpha_numeric_punct|min_length[3]');
         	$validation->setRule('message', 'Message', 'trim');
 			$post=$this->request->getPost();
 			unset($post['submit']);
 			if (!$validation->run($post)) {
-				$this->result=['status'=>'error','message'=>validation_errors(),'type'=>'validation'];
+				$this->result=['status'=>'error','message'=>'Provided inputs can\'t be validated','type'=>'validation'];
 				$this->show_result();exit;
+				//validation_errors();
 			}else{
 				$post = $validation->getValidated();
 				$email = service('email');
@@ -185,7 +188,7 @@ class Form_Submit extends BaseController {
 
 				//$email->setFrom('<info@omni-united.com>', 'Omni Enquiry');
 				$to=['manavsuri@omni-united.com'];
-				//amitsarajput@gmail.com
+				//amitsarajput@gmail.com ,'amit@lopamudracreative.com'
 				if($post['region']==='NorthAmerica'){
 				   //$to[]='caseyrobinson@omni-united.com';
 				} elseif($post['region']==='Asia'){ 
